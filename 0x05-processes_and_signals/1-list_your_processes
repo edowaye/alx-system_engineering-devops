@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
-for i in $(seq 1 10)
-do
-	i="Best School"
-	echo "$i"
-done
+# This script displays list of currently running processes
+
+ps -auxf
