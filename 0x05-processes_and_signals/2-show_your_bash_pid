@@ -1,10 +1,4 @@
 #!/usr/bin/env bash
-#Bash script that displays Best School 10 times
+# This script extends previous task command
 
-count=10
-
-while [[ $count -ne 0 ]]
-do
-	echo "Best School"
-	count=$((count - 1))
-done
+./1-list_your_processes | grep "bash"
